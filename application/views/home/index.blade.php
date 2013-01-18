@@ -1,3 +1,8 @@
+<?php
+//echo Asset::scripts('jquery');
+echo HTML::script('js/jquery.js');
+//die();
+?>
 <!doctype html>
 <html lang="en">
 <head>

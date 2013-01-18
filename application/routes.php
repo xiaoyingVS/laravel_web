@@ -31,12 +31,25 @@
 |		});
 |
 */
-
+Asset::add('jquery', 'js/jquery.js');
+Asset::add('jqueryUi', 'js/jqueryUi.js');
+//Asset::add('jqueryUi', 'js/jqueryui.js');
+//Asset::add('jquery-ui', 'js/jquery-ui.js', 'jquery');
+Route::controller('home');
+/*
 Route::get('/', function()
 {
+	return phpinfo();
+});
+*/
+Route::get('/',array('as' => 'home','uses'=>'home@index'));
+/*
+Route::get('/', function()
+{
+	return "Hello World!";
 	return View::make('home.index');
 });
-
+*/
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers

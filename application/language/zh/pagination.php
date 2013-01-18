@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 return array(
 
@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'previous' => '&laquo; Előző',
-	'next'     => 'Következő &raquo;',
+	'previous' => '&laquo; 上一页',
+	'next'     => '下一页 &raquo;',
 
 );
