@@ -1,9 +1,9 @@
-mkdir -pv storage/cache
-mkdir -pv /storage/database
-mkdir -pv /storage/logs
-mkdir -pv /storage/sessions
-mkdir -pv /storage/views
-mkdir -pv /storage/work
+mkdir -pv storage/cache 
+mkdir -pv /storage/database 
+mkdir -pv /storage/logs 
+mkdir -pv /storage/sessions 
+mkdir -pv /storage/views 
+mkdir -pv /storage/work 
 
 Requirements
 PHP 5.3+
